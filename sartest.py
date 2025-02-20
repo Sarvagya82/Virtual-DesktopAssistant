@@ -40,7 +40,7 @@ def wishMe():
         speak("Good Afternoon!")   
 
     else:
-        speak("Good Evening!")  
+        speak("Good Evening! I am sofia Sir and I am your personal voice assistant, Please give a command or say 'help me' and I will tell you what all I can do for you")  
 #yaha pas commnd dalna hai sofiua kaI am sofia Sir and I am your personal voice assistant, Please give a command or say 'help me' and I will tell you what all I can do for you
     speak("commnd pls.")
 
@@ -68,7 +68,7 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('sarvagyamishra82@gmail.com', 'Ananya89@&')
+    server.login('sarvagyamishra82@gmail.com', 'hshfAnasfasgganya89@&')
     server.sendmail('sarvagyamishra82@gmail.com', to, content)
     server.close()
 
